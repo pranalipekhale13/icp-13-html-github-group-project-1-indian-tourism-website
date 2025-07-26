@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel booking</title>
+</head>
+<body>
+ <br><br>
+<hr>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="home.html">|HOME &nbsp;|</a>
+<a href="india.html">INDIA &nbsp;|</a> 
+<a href="historical-place.html">HISTORICAL PLACE&nbsp;|</a>
+<a href="maharashtra.html">MAHARASHTRA&nbsp;|</a>
+<a href="rajasthan.html"> RAJASTHAN &nbsp;|</a>   
+<a href="ladakh.html"> LADAKH &nbsp;|</a>
+<a href="kerla.html"> KERLA &nbsp;| </a>
+<a href="accomodation.html">ACCOMONDATION |&nbsp;</a>
+<a href="login.html">LOGIN  &nbsp;| </a>
+<a href="contact.html">CONTACT US &nbsp;| </a>
+<hr/>
+
+
+    <h1>Hotel Booking</h1>
+     <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br>
+        <label for="checkIn">Check-In Date:</label><br>
+        <input type="date" id="checkIn" name="checkIn" required><br>
+        <label for="checkOut">Check-Out Date:</label><br>
+        <input type="date" id="checkOut" name="checkOut" required><br>
+        <label for="accommodation">Accommodation Type:</label><br>
+        <select id="accommodation" name="accommodation" required>
+            <option value="">Select Accommodation Type</option>
+            <option value="Hotel">Hotel</option>
+            <option value="Resort">Resort</option>
+            <option value="Guesthouse">Guesthouse</option>
+            <option value="Hostel">Hostel</option>
+            <option value="Vacation Rental">Vacation Rental</option>
+        </select><br>
+        <label for="roomType">Room Type:</label><br>
+        <select id="roomType" name="roomType" required>
+            <option value="">Select Room Type</option>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Suite">Suite</option>
+        </select><br>
+        <label for="numGuests">Number of Guests:</label><br>
+        <input type="number" id="numGuests" name="numGuests" min="1" required><br>  
+        <label for="specialRequests">Special Requests:</label><br>
+        <textarea id="specialRequests" name="specialRequests"></textarea><br>
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>

@@ -14,7 +14,7 @@ Discover the vibrant culture, stunning landscapes, and rich heritage of India. W
 
 # About India
 
-India, the world’s second-most populous country, offers a unique blend of modern and traditional culture. With over 1.3 billion people, a rich historical legacy, and diverse landscapes, India is one of the most exciting destinations to visit.
+India, the world’s second-most populous country, offers a unique blend of modern & traditional culture. With over 1.3 billion people, a rich historical legacy, and diverse landscapes, India is one of the most exciting destinations to visit.
 
 **Key Highlights:**
 - Ancient temples, fortresses, and palaces.

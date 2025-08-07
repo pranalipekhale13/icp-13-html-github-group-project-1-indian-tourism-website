@@ -9,8 +9,9 @@ Discover the vibrant culture, stunning landscapes, and rich heritage of India. W
 - **Ladakh:** A high-desert paradise
 - **Kerala:** God's Own Country with backwaters
 -----
-![incredible india](./../images/maxresdefault.jpg)
+![incredible india](./images/maxresdefault.jpg)
 -----
+![homepage](./images/home.png)
 
 # About India
 
